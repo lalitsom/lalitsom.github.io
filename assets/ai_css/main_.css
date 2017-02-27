@@ -1,0 +1,9 @@
+#myCanvas
+{
+  margin-left:0px;
+  
+  background-size: cover;
+  background-repeat:no-repeat;
+   background-position: 50% 50%;
+  border:1px solid black;
+}
