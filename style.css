@@ -1,26 +1,30 @@
-#loading{
-  width:50px;
-  height:50px;
-  border:5px solid #282c34;
-  border-top-color: #4b97c3;
-   border-radius:100%;
-/*  for center */
-   position: fixed;
-   left:0;
-   right:0;
-   top:0;
-   bottom:0;
-   margin:auto;
-
-   /*animation*/
-   animation: round 2s linear infinite;
-}
-@keyframes round{
-  from{transform : rotate(0deg)}
-  to{transform:rotate(360deg)}
+body{
+       min-height: 100%;
+       font-family: 'Architects Daughter', cursive;
 }
 
-.keys{
-  font-size:30px;
-  margin: 7px;
+
+@font-face {
+  font-family: 'quicksand';
+  src: url('assets/fonts/Quicksand-Regular.otf'); /* IE9 Compat Modes */
+
+}
+
+#head_div{
+height: 100vh;
+
+}
+
+#center_topic{
+  font-size: 45px;
+
+
+  text-align: center;
+
+  border-width: 1px;
+  border-color: black;
+  letter-spacing: 5px;
+  padding:10px;
+  top:auto;
+
 }
