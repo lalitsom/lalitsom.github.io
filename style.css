@@ -4,14 +4,15 @@ body{
       font-family: 'Titillium Web', sans-serif;
       top: 0;
       transition: scroll 1s;
-
+      overflow: auto;
+      background-color: #faf6ec;
 }
 html{
     transition: scroll 1s;
 }
 
 .head_nav_bar{
-  background: #E9E9E9;
+  background: #faf6ec;
   width:100%;
   height:60px;
   cursor:pointer;
@@ -25,93 +26,25 @@ html{
   font-weight: bolder;
 }
 
-
-.loading_container{
-  margin: auto;
-  background-color: #E9E9E9;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  z-index: 6;
-  padding:20px;
-}
-.loading-text{
-  max-width: 65vw;
-  margin-top: 10vh;
-  box-shadow: 4px 4px 3px #888888;
+.menu_div{
+  margin: 10px;
+  margin-top:20vh;
+  height: 60vh;
 }
 
-
-.spinner {
-    position: absolute;
-    top: 56%
+.menu_item{
+  font-size: 35px;
+  min-height:25vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 1s ease;
+  margin-left: 20px;
+  background-color:#E9E9E9;
+  margin-top: 30px;
 }
-
-.spinner {
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    left: 50%;
-    margin-left: -20px;
-    margin-top: -20px;
-    -webkit-animation: a 2s infinite linear;
-    animation: a 2s infinite linear
-}
-
-.dot1,
-.dot2 {
-    width: 70%;
-    height: 70%;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    background-color:#283345;
-    border-radius: 100%;
-    -webkit-animation: b 2s infinite ease-in-out;
-    animation: b 2s infinite ease-in-out
-}
-
-.dot2 {
-    top: auto;
-    bottom: 0;
-    -webkit-animation-delay: -1s;
-    animation-delay: -1s
-}
-
-@-webkit-keyframes a {
-    to {
-        -webkit-transform: rotate(1turn);
-        transform: rotate(1turn)
-    }
-}
-
-@keyframes a {
-    to {
-        -webkit-transform: rotate(1turn);
-        transform: rotate(1turn)
-    }
-}
-
-@-webkit-keyframes b {
-    0%,
-    to {
-        -webkit-transform: scale(0);
-        transform: scale(0)
-    }
-    50% {
-        -webkit-transform: scale(1);
-        transform: scale(1)
-    }
-}
-
-@keyframes b {
-    0%,
-    to {
-        -webkit-transform: scale(0);
-        transform: scale(0)
-    }
-    50% {
-        -webkit-transform: scale(1);
-        transform: scale(1)
-    }
+.menu_item:hover{
+  background-color:#e97263;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  color:white;
+  cursor:pointer;
+  border-radius: 10%;
 }
