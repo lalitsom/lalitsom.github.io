@@ -1,0 +1,36 @@
+
+.container_o {
+  position: relative;
+
+}
+
+.image_o {  
+}
+
+.overlay_o {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #283e4a;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container_o:hover .overlay_o {
+  width: 100%;
+  left: 0;
+}
+
+.text_o {
+
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
