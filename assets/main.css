@@ -7,12 +7,24 @@
 .image_o {
 }
 
+
+.project-divs{
+  margin-top:50px;
+
+}
+
+
+.project-divs .well{
+   box-shadow: 2px 1px 5px #1c1c1c;
+}
+
+
 .overlay_o {
   position: absolute;
   bottom: 0;
   left: 100%;
   right: 0;
-  background-color: #283e4a;
+  background-color: #141517;
   overflow: hidden;
   width: 0;
   height: 100%;
