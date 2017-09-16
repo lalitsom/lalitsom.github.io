@@ -55,14 +55,12 @@ function populate_tags(){
 
 
 function addFontTag(text,icon){
-  console.log(text,icon);
   var newtag = '<div class="chip">'+text+'<i class="'+icon+'"></i>  </div>';
   $('#things_tags').append(newtag);
 }
 
 
-function addMaterial(text,icon){
-  console.log(text,icon);
+function addMaterial(text,icon){  
   var newtag = '<div class="chip">'+text+'<i class="material-icons">'+icon+'</i>  </div>';
   $('#things_tags').append(newtag);
 }
