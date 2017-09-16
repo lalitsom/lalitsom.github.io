@@ -1,0 +1,53 @@
+i{ vertical-align: middle !important; }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.bold{
+  font-weight: bold;
+}
+.anim-delay{
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+.alert{
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-warning{
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.alert-danger{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert-success{
+  color: #3c763d;
+ background-color: #dff0d8;
+ border-color: #d6e9c6;
+}
+.wide{
+  min-width: 95%;
+}
+.workspace-item{
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.over-text{
+  overflow: hidden;
+   word-wrap: break-word;
+}
