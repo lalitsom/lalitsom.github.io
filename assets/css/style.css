@@ -39,15 +39,14 @@ i{ vertical-align: middle !important; }
 .wide{
   min-width: 95%;
 }
-.workspace-item{
-  width: 200px;
-  height: 200px;
-  font-size: 30px;
-  margin-left: 25px;
-  cursor: pointer;
+
+.seperate-btn{
+  margin-top: 5px;
 }
 
-.over-text{
-  overflow: hidden;
-   word-wrap: break-word;
+.chip{
+  font-size: 20px;
+}
+#things_tags{
+  min-height: 100px;
 }
