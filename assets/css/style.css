@@ -50,3 +50,19 @@ i{ vertical-align: middle !important; }
 #things_tags{
   min-height: 100px;
 }
+
+.white-wall{
+  width: 100%;
+   height: 100%;
+   z-index: 99999;
+   position: fixed;
+}
+
+.preloader-wrapper{
+  position: fixed;
+  margin: auto;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+}
