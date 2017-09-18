@@ -54,8 +54,11 @@ i {
 
 .chip {
   font-size: 20px;
+  margin: 5px;
 }
-
+.about-me{
+  margin-top: 15px;
+}
 #things_tags {
   min-height: 100px;
 }

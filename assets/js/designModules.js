@@ -68,4 +68,8 @@ function addMaterial(text,icon){
   $('#things_tags').append(newtag);
 }
 
+function hide(tbar){
+  $("#"+tbar.id).removeClass('active');
+}
+
 populate_tags();
