@@ -19,16 +19,15 @@
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
-<body>
+<body onload="fadeLoader()">
 
-  <script>
-    $(document).ready(function() {
-      window.onload = function() {
-        $('.white-wall').fadeOut(1000, function() {
-          $('.white-wall').remove();
-        });
-      }
-    });
+  <script type="text/javascript">
+    function fadeLoader() {
+      console.log('page loaded');
+      $('.white-wall').fadeOut(1000, function() {
+        $('.white-wall').remove();
+      });
+    }
   </script>
 
   <div class="white-wall">
@@ -46,6 +45,7 @@
       </div>
     </div>
   </div>
+
 
 
 
