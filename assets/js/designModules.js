@@ -24,19 +24,22 @@ $('.modal').modal({
 
 tags=
 [
-  {text: "My Computer ", icon: "computer"},
-  {text: "Football ", icon: "fa fa-futbol-o",type:"font"},
-  {text: "Building software ", icon: "developer_mode"},
-  {text: "Mathematics ", icon: "functions"},
-  {text: "Movies ", icon: "movie"},
-  {text: "Anime ", icon: "movie_filter"},
-  {text: "Philosophy ", icon: "account_balance"},
-  {text: "BATMAN ", icon: "^~^"},
-  {text: "Puzzles ", icon: "extension"},
-  {text: "Git Hub ", icon: "fa fa-github", type:"font"},
-  {text: "Paradoxes ", icon: "all_inclusive"},
-  {text: "Chess ", icon: "fa fa-braille", type:"font"},
-  {text: "Physics ", icon: "fa fa-flask", type:"font"}
+  {text: "My Computer", icon: "computer"},
+  {text: "Football", icon: "fa fa-futbol-o",type:"font"},
+  {text: "Building software", icon: "developer_mode"},
+  {text: "Mathematics", icon: "functions"},
+  {text: "Movies", icon: "movie"},
+  {text: "Anime", icon: "movie_filter"},
+  {text: "Philosophy", icon: "account_balance"},
+  {text: "BATMAN", icon: "^~^"},
+  {text: "Learning New Things", icon: "language"},
+  {text: "Puzzles", icon: "extension"},
+  {text: "Teaching", icon: "import_contacts"},
+  {text: "Git Hub", icon: "fa fa-github", type:"font"},
+  {text: "Paradoxes", icon: "all_inclusive"},
+  {text: "Chess", icon: "fa fa-braille", type:"font"},
+  {text: "Physics", icon: "fa fa-flask", type:"font"},
+  {text: "Taoism ", icon: "cached"}
 ];
 
 
@@ -60,8 +63,8 @@ function addFontTag(text,icon){
 }
 
 
-function addMaterial(text,icon){  
-  var newtag = '<div class="chip">'+text+'<i class="material-icons">'+icon+'</i>  </div>';
+function addMaterial(text,icon){
+  var newtag = '<div class="chip">'+text+' '+'<i class="material-icons">'+icon+'</i>  </div>';
   $('#things_tags').append(newtag);
 }
 
