@@ -68,8 +68,9 @@
     </a>
           <ul>
             <li><a href="https://linkedin.com/in/lalitsom" target="_blank" class="btn-floating blue-dark hoverable"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://twitter.com/somlalit" target="_blank" class="btn-floating blue hoverable"><i class="fa fa-twitter"></i></a></li>
             <li><a href="https://github.com/lalitsom" target="_blank" class="btn-floating black hoverable"><i class="fa fa-github-alt"></i></a></li>
-            <li><a href="https://facebook.com/BDOUF" target="_blank" class="btn-floating blue hoverable"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://facebook.com/BDOUF" target="_blank" class="btn-floating blue darken-4 hoverable"><i class="fa fa-facebook"></i></a></li>
             <li><a href="mailto:lalitsom27@gmail.com" class="btn-floating red hoverable"><i class="fa fa-envelope"></i></a></li>
           </ul>
         </div>
@@ -79,9 +80,8 @@
 
 
       <div class="row center">
-        <a href="#" id="download-button" class="seperate-btn btn-large waves-effect waves-dark red hoverable">Things I Love</a>
-        <a href="#" id="download-button" class="seperate-btn btn-large waves-effect waves-dark red hoverable">Stuff I Build</a>
-
+        <a onclick="show_things()" class="seperate-btn btn-large waves-effect waves-dark red hoverable">Things I Love</a>
+        <a onclick="" class="seperate-btn btn-large waves-effect waves-dark red hoverable">Stuff I Build</a>
       </div>
 
 
@@ -91,10 +91,30 @@
 
   <div class="container">
     <div class="section">
-      <h4 class="animated fadeIn">Things I Love </h4>
-      <hr>
 
-      <div class="row about-me" id="things_tags"></div>
+      <div id="things">
+        <h4 class="animated fadeIn">Things I Love </h4>
+        <hr>
+
+        <div class="row about-me" id="things_tags"></div>
+      </div>
+
+      <div class="animated fadeIn" id="stuff" style="display:none">
+        <h4>Stuff I Build </h4>
+        <hr>
+
+        <div class="carousel">
+          <a class="carousel-item" href="#one!"><img src=""></a>
+          <a class="carousel-item" href="#two!"><img src=""></a>
+          <a class="carousel-item" href="#three!"><img src=""></a>
+          <a class="carousel-item" href="#four!"><img src=""></a>
+          <a class="carousel-item" href="#five!"><img src=""></a>
+        </div>
+
+
+      </div>
+
+
     </div>
     <br><br>
   </div>

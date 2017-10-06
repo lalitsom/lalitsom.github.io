@@ -22,6 +22,16 @@ $('.modal').modal({
   } // Callback for Modal close
 });
 
+
+
+$(document).ready(function(){
+    $('.carousel').carousel();
+  });
+
+
+
+
+
 tags=
 [
   {text: "My Computer", icon: "computer"},
@@ -71,5 +81,17 @@ function addMaterial(text,icon){
 function hide(tbar){
   $("#"+tbar.id).removeClass('active');
 }
+
+function show_things() {
+    document.getElementById('things').style.display = 'block';
+    document.getElementById('stuff').style.display = 'none';
+}
+
+function show_stuff() {
+  document.getElementById('things').style.display = 'none';
+  document.getElementById('stuff').style.display = 'block';  
+}
+
+
 
 populate_tags();
